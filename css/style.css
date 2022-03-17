@@ -129,7 +129,17 @@ p{
 /* right footer */
 .right-footer{
     display: flex;
-    width: 5%;
+    /* width: 10%; */
     height: 100%;
-    background-color: green;
+    background-color: rgba(232, 230, 237, .2);
+    line-height: 80px;
+}
+
+.end{
+    font-weight: bold;
+    color: red;
+    padding: 0 .8em;
+    font-size: .8em;
+    text-align: center;
+    
 }
