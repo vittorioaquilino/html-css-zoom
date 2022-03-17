@@ -41,17 +41,27 @@ html{
 /* MAIN */
 main{
     height: calc(100vh - 120px);
-    background-color: aquamarine;
     overflow-y: auto;
 }
 
 .user{
+    display: flex;
+    align-items: flex-end;
     width: 200px;
     height: 125px;
-    border: 1px solid green;
     margin: .4em .2em;
     background-image: url("https://picsum.photos/246/146");
     background-position: center;
+}
+
+.user-name{
+    height: 20px;
+    color: white;
+    background-color: rgba(000, 000, 000, .3)
+}
+
+.user-name span{
+    font-size: .7em;
 }
 
 /* FOOTER */
