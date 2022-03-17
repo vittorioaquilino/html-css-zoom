@@ -99,7 +99,7 @@ footer{
 }
 
 i{
-    margin-bottom: .5em;
+    margin-bottom: .2em;
 }
 
 p{
@@ -108,14 +108,22 @@ p{
 /* center footer */
 .center-footer{
     display: flex;
+    justify-content: center;
+    align-items: center;
     width: 50%;
     height: 100%;
-    background-color: orange;
+    text-align: center;
 }
 
+.center-footer i{
+    font-size: 1.5em;
+}
 .footer-item{
-    width: calc(100% / 8);
-    border: 1px solid lightgreen;
+    margin: 0 .5em;
+}
+
+.active i{
+    color: #29af29;
 }
 
 /* right footer */
