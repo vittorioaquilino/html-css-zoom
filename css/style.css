@@ -3,3 +3,34 @@
     padding: 0;
     box-sizing: border-box;
 }
+
+html{
+    font-family: 'Lato', sans-serif;
+    background-color: black;
+}
+
+/* COMMON */
+
+/* HEADER */
+.header-nav{
+    display: flex;
+    justify-content: flex-end;
+    height: 20px;
+    /* background-color: red; */
+    color: white;
+    font-size: .8em;
+    margin-top: .3em;
+}
+
+.speaker{
+    background-color: rgba(232, 230, 237, .4);
+    padding: .2em .4em;
+    border-radius: 5px;
+}
+
+.arrow{
+    background-color: rgba(232, 230, 237, .4);
+    padding: .2em .4em;
+    border-radius: 5px; 
+    margin: 0 .2em;
+}
